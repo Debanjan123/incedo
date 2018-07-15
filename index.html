@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="./css/style.css"></link>
+<link rel="stylesheet" href="./css/bootstrap.min.css"></link>
+</head>
+<body>
+<div class="col-sm-12 ">
+<div class="col-sm-6">
+<label>
+Container One
+</label>
+<ol data-draggable="target" ondrop="drop(event)" ondragover="allowDrop(event)" container-type="containerOne">
+</ol>
+</div>
+<div class="col-sm-6">
+<label>
+	Container Two
+</label>
+<ol data-draggable="target" id="containerTwo" container-type="containerTwo" drop-contain="containerOne">
+ 
+</ol>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<label>
+	Container Three
+</label>
+<ol data-draggable="target" ondrop="drop(event)" ondragover="allowDrop(event)" container-type="containerThree">
+ 
+</ol>
+</div>
+<div class="col-sm-6">
+<label>
+	Container Four
+</label>
+<ol data-draggable="target"  id="containerFour" container-type="containerFour" drop-contain = "containerThree">
+
+</ol>
+</div>
+</div>
+<div class="col-sm-12 pd28">
+<div >
+<label>
+	Output
+</label>
+<div data-draggable="target" >
+<h2>
+	
+	<p id="output"></p>
+</h2>
+</div>
+</div>
+<script src="./data/item.json"></script>
+<script src="./script/script.js"></script>
+</body>
+</html>

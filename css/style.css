@@ -1,0 +1,115 @@
+html, body
+{
+	font:normal normal normal 100%/1.4 tahoma, sans-serif;
+	background:#f9f9f9;
+	color:#000;
+}
+body
+{
+	font-size:0.8em;
+}
+
+/* draggable targets */
+[data-draggable="target"]
+{
+	/*float:left;*/
+	/*list-style-type:none;*/
+	
+	/*width:42%;*/
+	height:7.5em;
+	overflow-y:auto;
+	
+	margin:0 0.5em 0.5em 0;
+	padding:5px;
+	
+	border:2px solid #888;
+	border-radius:0.2em;
+	
+	background:#ddd;
+	color:#555;
+	position: relative;
+
+}
+
+/* draggable items */
+[data-draggable="item"]
+{
+	display:block;
+	list-style-type:none;
+	
+	margin:0 0 2px 0;
+	padding:0.2em 0.4em;
+	
+	border-radius:0.2em;
+	
+	line-height:1.3;
+	position: relative;
+}
+.float-r{
+	    float: right;
+}
+.cursor-pointer{
+	cursor: pointer;
+	background: black;
+    color: white;
+}
+.pd2{
+	padding: 2px;
+	border: 1px solid #bfbdbd;
+	margin-bottom: 2px;
+	
+	border:2px solid #888;
+	border-radius:0.2em;
+	
+	background:#ddd;
+	color:#555;
+	position: relative;
+	    background-color: #ee5315;
+    border-color: #ee5315;
+    background: #ee5315;
+    border: 1px solid #505156;
+    border: 1px solid #505156;
+    color: #fff;
+    background-clip: padding-box;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.33334;
+    position: relative;
+    transition-property: background-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+.pd28{
+	    padding: 0px 28px 0px 28px !important;
+}
+.dragElement{
+
+	border:2px solid #888;
+	border-radius:0.2em;
+	
+	background:#ddd;
+	color:#555;
+	position: relative;
+	    background-color: #ee5315;
+    border-color: #ee5315;
+    background: #ee5315;
+    border: 1px solid #505156;
+    border: 1px solid #505156;
+    color: #fff;
+    background-clip: padding-box;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.33334;
+    position: relative;
+    transition-property: background-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
